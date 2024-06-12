@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Report Automation API">
+  <test name="Test Automation Positive case">
+    <classes>
+      <class name="apiauto.positiveCase" />
+    </classes>
+  </test>
+  <test name="Test Automation Negative case">
+    <classes>
+      <class name="apiauto.negativeCase" />
+    </classes>
+  </test>
+</suite>
